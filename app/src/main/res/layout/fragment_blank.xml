@@ -10,20 +10,22 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введите текст"
+        android:hint="@string/hint_text"
+        android:inputType="text"
+        android:autofillHints=""
         android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/buttonChange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Изменить текст"
+        android:text="@string/btn_change"
         android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/buttonToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Показать Toast" />
+        android:text="@string/btn_toast" />
 
 </LinearLayout>
